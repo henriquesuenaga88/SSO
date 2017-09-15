@@ -1,4 +1,4 @@
-package saml;
+package sso.saml;
 
 import java.util.ArrayList;
 import java.util.List;

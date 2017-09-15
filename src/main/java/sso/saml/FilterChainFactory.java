@@ -1,10 +1,10 @@
-package saml;
+package sso.saml;
 
-import static saml.HandlerFactory.authenticationFailureHandler;
-import static saml.HandlerFactory.logoutHandler;
-import static saml.HandlerFactory.successLogoutHandler;
-import static saml.HandlerFactory.successRedirectHandler;
-import static saml.ProfileFactory.defaultWebSSOProfileOptions;
+import static sso.saml.HandlerFactory.authenticationFailureHandler;
+import static sso.saml.HandlerFactory.logoutHandler;
+import static sso.saml.HandlerFactory.successLogoutHandler;
+import static sso.saml.HandlerFactory.successRedirectHandler;
+import static sso.saml.ProfileFactory.defaultWebSSOProfileOptions;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.authentication.AuthenticationManager;

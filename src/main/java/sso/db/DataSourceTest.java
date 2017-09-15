@@ -1,4 +1,4 @@
-package db;
+package sso.db;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -10,10 +10,10 @@ import javax.sql.DataSource;
 public class DataSourceTest {
 
 	public static void main(String[] args) {
-		testDataSource("oracle");
+		testDataSource();
 	}
 
-	private static void testDataSource(String dbType) {
+	private static void testDataSource() {
 		DataSource ds = DataSourceFactory.getOracleDataSource();
 		
 		Connection con = null;

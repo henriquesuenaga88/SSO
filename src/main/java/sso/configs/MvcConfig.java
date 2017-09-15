@@ -1,4 +1,4 @@
-package configs;
+package sso.configs;
 
 import javax.sql.DataSource;
 
